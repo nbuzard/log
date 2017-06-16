@@ -1,7 +1,1 @@
-Log [![Build Status](https://secure.travis-ci.org/zhangpeihao/log.png)](http://travis-ci.org/zhangpeihao/log)
-======
-
-Log with levels and modules.
-
-Examples in test.
-
+Fork of this log module for a q&d hack. Removed stdout output on one log module. You don't really want to use this.
