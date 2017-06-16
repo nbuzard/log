@@ -338,11 +338,12 @@ func (logger *Logger) ModulePrint(module LoggerModule, level int, v ...interface
 }
 
 func (logger *Logger) ModulePrintf(module LoggerModule, level int, format string, v ...interface{}) {
+
 	if logger.ModuleLevelCheck(module, level) {
 		if logger.dump2stdout {
-			fmt.Printf(format, v...)
+//			fmt.Printf(format, v...)
 		}
-		logger.logger.Printf(format, v...)
+//		logger.logger.Printf(format, v...)
 	}
 }
 
